@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = 'jld.gruntechsolutions@gmail.com'; // Replace with your email address
+    $to = 'denumalegre4@gmail.com'; // Replace with your email address
     $subject = 'Contact Form Submission';
 
     // Gather form data
