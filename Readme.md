@@ -20,12 +20,10 @@ To view our website, you can simply visit the deployed version at [Your Website 
 
 2. Make your desired changes.
 
-3. Commit your changes and push them to your GitHub repository: 
-git add .
-git commit -m "Add your commit message here"
-git push origin main
-
-
+3. Commit your changes and push them to your GitHub repository:
+   git add . ||
+   git commit -m "Add your commit message here" ||
+   git push origin main
 
 4. Create a pull request on GitHub for your changes to be reviewed and merged.
 
