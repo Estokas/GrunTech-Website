@@ -403,42 +403,56 @@ h6 {
   width: 100%;
   height: 80vh;
   background-position: top center, center center;
-  /* background-image: url("../img/hero-business.jpg"); */
-  /* Adjust positions as needed */
   background-size: cover, cover;
-  /* Adjust sizing as needed */
-  background-repeat: no-repeat, no-repeat;
-  /* Prevent repetition */
+  background-repeat: no-repeat;
   position: relative;
-  animation: cycleBackgrounds 20s infinite;
+  animation: cycleBackgrounds 30s infinite;
 }
 
 @keyframes cycleBackgrounds {
-
   0% {
-    background-image: url("../img/hero-business.jpg");
+    background-image: url("../img/pexels-photo-936722.jpeg");
   }
 
-  20% {
+  10% {
     background-image: url("../img/pexels-sora-shimazaki-5668524.jpg");
   }
 
-  40% {
+  20% {
     background-image: url("../img/pexels-scott-webb-430208.jpg");
   }
 
-  60% {
+  30% {
     background-image: url("../img/close-up-programmer-typing-keyboard.jpg");
   }
 
-  80% {
+  40% {
     background-image: url("../img/pexels-anamul-rezwan-1216589.jpg");
   }
 
-  100% {
+  50% {
     background-image: url("../img/pexels-mike-van-schoonderwalt-5511097.jpg");
   }
 
+  60% {
+    background-image: url("../img/pexels-photomix-company-96612.jpg");
+  }
+
+  70% {
+    background-image: url("../img/pexels-alexander-grigorian-7396978.jpg");
+  }
+
+  80% {
+    background-image: url("../img/pexels-anete-lusina-4792480.jpg");
+  }
+
+  90% {
+    background-image: url("../img/pexels-brett-sayles-4657256.jpg");
+  }
+
+  100% {
+    background-image: url("../img/hero-business.jpg");
+  }
 }
 
 
@@ -516,7 +530,7 @@ h6 {
 
   #hero h2 {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 30px;
   }
 }
 
