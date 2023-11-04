@@ -1889,3 +1889,75 @@ ul {
     width: 100px;
   }
 }
+
+/* for portfolio*/
+
+/* Portfolio Section Styles */
+.portfolio {
+  padding: 60px 0;
+  background-color: #f8f8f8;
+}
+
+.portfolio img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.portfolio img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio .section-title h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #333;
+}
+
+.portfolio .section-title p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  color: #777;
+}
+
+.portfolio .content {
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-item h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Animation Styles */
+.portfolio img {
+  transition: transform 0.3s ease;
+}
+
+.portfolio img:hover {
+  transform: scale(1.1);
+}
+
+/* AOS Animation Styles (if you're using AOS library) */
+[data-aos="fade-up"] {
+  transform: translateY(0);
+}
+
+[data-aos="fade-left"] {
+  transform: translateX(0);
+}
+
+[data-aos="fade-right"] {
+  transform: translateX(0);
+}
