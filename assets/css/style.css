@@ -1961,3 +1961,33 @@ ul {
 [data-aos="fade-right"] {
   transform: translateX(0);
 }
+
+
+/* Style the label */
+.form-group label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  /* This makes the label display on a new line */
+}
+
+/* Style the select element */
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  /* Background color */
+  margin-top: 5px;
+}
+
+/* Style the select options */
+.form-group select option {
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  /* Background color for options */
+}
